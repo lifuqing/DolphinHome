@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250862ABE41F9DEE1F6E067F /* libPods-DolphinHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4613E9806D790E250407CAC /* libPods-DolphinHome.a */; };
+		A8BF087C20D6A6AF0067AD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF087B20D6A6AF0067AD51 /* main.m */; };
+		A8BF087F20D6A6AF0067AD51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF087E20D6A6AF0067AD51 /* AppDelegate.m */; };
+		A8BF088220D6A6AF0067AD51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF088120D6A6AF0067AD51 /* ViewController.m */; };
+		A8BF088520D6A6AF0067AD51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BF088320D6A6AF0067AD51 /* Main.storyboard */; };
+		A8BF088720D6A6AF0067AD51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BF088620D6A6AF0067AD51 /* Assets.xcassets */; };
+		A8BF088A20D6A6AF0067AD51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BF088820D6A6AF0067AD51 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26FC38FE5EB1DA2E303347B5 /* Pods-DolphinHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolphinHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-DolphinHome/Pods-DolphinHome.release.xcconfig"; sourceTree = "<group>"; };
+		92E7DAFE172010AD061ED2A4 /* Pods-DolphinHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolphinHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DolphinHome/Pods-DolphinHome.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BF087720D6A6AF0067AD51 /* DolphinHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolphinHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BF087B20D6A6AF0067AD51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8BF087D20D6A6AF0067AD51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8BF087E20D6A6AF0067AD51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8BF088020D6A6AF0067AD51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8BF088120D6A6AF0067AD51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8BF088420D6A6AF0067AD51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8BF088620D6A6AF0067AD51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BF088920D6A6AF0067AD51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8BF088B20D6A6AF0067AD51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BF089120D6A7420067AD51 /* DolphinHome-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DolphinHome-Prefix.pch"; sourceTree = "<group>"; };
+		E4613E9806D790E250407CAC /* libPods-DolphinHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolphinHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BF087420D6A6AF0067AD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250862ABE41F9DEE1F6E067F /* libPods-DolphinHome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B65D22AB294A853B87C062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92E7DAFE172010AD061ED2A4 /* Pods-DolphinHome.debug.xcconfig */,
+				26FC38FE5EB1DA2E303347B5 /* Pods-DolphinHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8BF086E20D6A6AF0067AD51 = {
+			isa = PBXGroup;
+			children = (
+				A8BF087920D6A6AF0067AD51 /* DolphinHome */,
+				A8BF087820D6A6AF0067AD51 /* Products */,
+				09B65D22AB294A853B87C062 /* Pods */,
+				FF455F8EC3910FB7D0ABC524 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BF087820D6A6AF0067AD51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF087720D6A6AF0067AD51 /* DolphinHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BF087920D6A6AF0067AD51 /* DolphinHome */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF087D20D6A6AF0067AD51 /* AppDelegate.h */,
+				A8BF087E20D6A6AF0067AD51 /* AppDelegate.m */,
+				A8BF088020D6A6AF0067AD51 /* ViewController.h */,
+				A8BF088120D6A6AF0067AD51 /* ViewController.m */,
+				A8BF088320D6A6AF0067AD51 /* Main.storyboard */,
+				A8BF089120D6A7420067AD51 /* DolphinHome-Prefix.pch */,
+				A8BF088620D6A6AF0067AD51 /* Assets.xcassets */,
+				A8BF088820D6A6AF0067AD51 /* LaunchScreen.storyboard */,
+				A8BF088B20D6A6AF0067AD51 /* Info.plist */,
+				A8BF087A20D6A6AF0067AD51 /* Supporting Files */,
+			);
+			path = DolphinHome;
+			sourceTree = "<group>";
+		};
+		A8BF087A20D6A6AF0067AD51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF087B20D6A6AF0067AD51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF455F8EC3910FB7D0ABC524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4613E9806D790E250407CAC /* libPods-DolphinHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BF087620D6A6AF0067AD51 /* DolphinHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BF088E20D6A6AF0067AD51 /* Build configuration list for PBXNativeTarget "DolphinHome" */;
+			buildPhases = (
+				06CE7B06B28CDE691BE39C74 /* [CP] Check Pods Manifest.lock */,
+				A8BF087320D6A6AF0067AD51 /* Sources */,
+				A8BF087420D6A6AF0067AD51 /* Frameworks */,
+				A8BF087520D6A6AF0067AD51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolphinHome;
+			productName = DolphinHome;
+			productReference = A8BF087720D6A6AF0067AD51 /* DolphinHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BF086F20D6A6AF0067AD51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					A8BF087620D6A6AF0067AD51 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8BF087220D6A6AF0067AD51 /* Build configuration list for PBXProject "DolphinHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BF086E20D6A6AF0067AD51;
+			productRefGroup = A8BF087820D6A6AF0067AD51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BF087620D6A6AF0067AD51 /* DolphinHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BF087520D6A6AF0067AD51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BF088A20D6A6AF0067AD51 /* LaunchScreen.storyboard in Resources */,
+				A8BF088720D6A6AF0067AD51 /* Assets.xcassets in Resources */,
+				A8BF088520D6A6AF0067AD51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06CE7B06B28CDE691BE39C74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolphinHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BF087320D6A6AF0067AD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BF088220D6A6AF0067AD51 /* ViewController.m in Sources */,
+				A8BF087F20D6A6AF0067AD51 /* AppDelegate.m in Sources */,
+				A8BF087C20D6A6AF0067AD51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8BF088320D6A6AF0067AD51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BF088420D6A6AF0067AD51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8BF088820D6A6AF0067AD51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BF088920D6A6AF0067AD51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BF088C20D6A6AF0067AD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8BF088D20D6A6AF0067AD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BF088F20D6A6AF0067AD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E7DAFE172010AD061ED2A4 /* Pods-DolphinHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "DolphinHome/DolphinHome-Prefix.pch";
+				INFOPLIST_FILE = DolphinHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolphin.DolphinHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8BF089020D6A6AF0067AD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FC38FE5EB1DA2E303347B5 /* Pods-DolphinHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "DolphinHome/DolphinHome-Prefix.pch";
+				INFOPLIST_FILE = DolphinHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolphin.DolphinHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BF087220D6A6AF0067AD51 /* Build configuration list for PBXProject "DolphinHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BF088C20D6A6AF0067AD51 /* Debug */,
+				A8BF088D20D6A6AF0067AD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BF088E20D6A6AF0067AD51 /* Build configuration list for PBXNativeTarget "DolphinHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BF088F20D6A6AF0067AD51 /* Debug */,
+				A8BF089020D6A6AF0067AD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BF086F20D6A6AF0067AD51 /* Project object */;
+}
