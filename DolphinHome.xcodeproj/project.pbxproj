@@ -11,9 +11,12 @@
 		A8BF087C20D6A6AF0067AD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF087B20D6A6AF0067AD51 /* main.m */; };
 		A8BF087F20D6A6AF0067AD51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF087E20D6A6AF0067AD51 /* AppDelegate.m */; };
 		A8BF088220D6A6AF0067AD51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF088120D6A6AF0067AD51 /* ViewController.m */; };
-		A8BF088520D6A6AF0067AD51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BF088320D6A6AF0067AD51 /* Main.storyboard */; };
 		A8BF088720D6A6AF0067AD51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BF088620D6A6AF0067AD51 /* Assets.xcassets */; };
-		A8BF088A20D6A6AF0067AD51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BF088820D6A6AF0067AD51 /* LaunchScreen.storyboard */; };
+		A8BF089A20D7E19D0067AD51 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF089920D7E19D0067AD51 /* DHViewController.m */; };
+		A8BF089D20D7E1BF0067AD51 /* DHTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF089C20D7E1BF0067AD51 /* DHTabViewController.m */; };
+		A8BF08A020D7E9AE0067AD51 /* DHTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF089F20D7E9AE0067AD51 /* DHTitleBar.m */; };
+		A8BF08A320D7F5290067AD51 /* DHMarco.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF08A220D7F5290067AD51 /* DHMarco.m */; };
+		A8BF08A620D7F9B00067AD51 /* DHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BF08A520D7F9B00067AD51 /* DHConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +28,19 @@
 		A8BF087E20D6A6AF0067AD51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A8BF088020D6A6AF0067AD51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A8BF088120D6A6AF0067AD51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A8BF088420D6A6AF0067AD51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8BF088620D6A6AF0067AD51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8BF088920D6A6AF0067AD51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8BF088B20D6A6AF0067AD51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8BF089120D6A7420067AD51 /* DolphinHome-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DolphinHome-Prefix.pch"; sourceTree = "<group>"; };
+		A8BF089820D7E19D0067AD51 /* DHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		A8BF089920D7E19D0067AD51 /* DHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		A8BF089B20D7E1BF0067AD51 /* DHTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTabViewController.h; sourceTree = "<group>"; };
+		A8BF089C20D7E1BF0067AD51 /* DHTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTabViewController.m; sourceTree = "<group>"; };
+		A8BF089E20D7E9AE0067AD51 /* DHTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTitleBar.h; sourceTree = "<group>"; };
+		A8BF089F20D7E9AE0067AD51 /* DHTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTitleBar.m; sourceTree = "<group>"; };
+		A8BF08A120D7F5290067AD51 /* DHMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMarco.h; sourceTree = "<group>"; };
+		A8BF08A220D7F5290067AD51 /* DHMarco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMarco.m; sourceTree = "<group>"; };
+		A8BF08A420D7F9B00067AD51 /* DHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHConfig.h; sourceTree = "<group>"; };
+		A8BF08A520D7F9B00067AD51 /* DHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHConfig.m; sourceTree = "<group>"; };
 		E4613E9806D790E250407CAC /* libPods-DolphinHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolphinHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,14 +86,14 @@
 		A8BF087920D6A6AF0067AD51 /* DolphinHome */ = {
 			isa = PBXGroup;
 			children = (
+				A8BF089220D7DF680067AD51 /* Core */,
+				A8BF089320D7DF680067AD51 /* MainCode */,
 				A8BF087D20D6A6AF0067AD51 /* AppDelegate.h */,
 				A8BF087E20D6A6AF0067AD51 /* AppDelegate.m */,
 				A8BF088020D6A6AF0067AD51 /* ViewController.h */,
 				A8BF088120D6A6AF0067AD51 /* ViewController.m */,
-				A8BF088320D6A6AF0067AD51 /* Main.storyboard */,
 				A8BF089120D6A7420067AD51 /* DolphinHome-Prefix.pch */,
 				A8BF088620D6A6AF0067AD51 /* Assets.xcassets */,
-				A8BF088820D6A6AF0067AD51 /* LaunchScreen.storyboard */,
 				A8BF088B20D6A6AF0067AD51 /* Info.plist */,
 				A8BF087A20D6A6AF0067AD51 /* Supporting Files */,
 			);
@@ -95,6 +106,38 @@
 				A8BF087B20D6A6AF0067AD51 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8BF089220D7DF680067AD51 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A8BF089320D7DF680067AD51 /* MainCode */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF089420D7DF810067AD51 /* BaseUI */,
+				A8BF089B20D7E1BF0067AD51 /* DHTabViewController.h */,
+				A8BF089C20D7E1BF0067AD51 /* DHTabViewController.m */,
+				A8BF08A120D7F5290067AD51 /* DHMarco.h */,
+				A8BF08A220D7F5290067AD51 /* DHMarco.m */,
+				A8BF08A420D7F9B00067AD51 /* DHConfig.h */,
+				A8BF08A520D7F9B00067AD51 /* DHConfig.m */,
+			);
+			path = MainCode;
+			sourceTree = "<group>";
+		};
+		A8BF089420D7DF810067AD51 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF089820D7E19D0067AD51 /* DHViewController.h */,
+				A8BF089920D7E19D0067AD51 /* DHViewController.m */,
+				A8BF089E20D7E9AE0067AD51 /* DHTitleBar.h */,
+				A8BF089F20D7E9AE0067AD51 /* DHTitleBar.m */,
+			);
+			path = BaseUI;
 			sourceTree = "<group>";
 		};
 		FF455F8EC3910FB7D0ABC524 /* Frameworks */ = {
@@ -164,9 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BF088A20D6A6AF0067AD51 /* LaunchScreen.storyboard in Resources */,
 				A8BF088720D6A6AF0067AD51 /* Assets.xcassets in Resources */,
-				A8BF088520D6A6AF0067AD51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,32 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BF089A20D7E19D0067AD51 /* DHViewController.m in Sources */,
 				A8BF088220D6A6AF0067AD51 /* ViewController.m in Sources */,
+				A8BF08A020D7E9AE0067AD51 /* DHTitleBar.m in Sources */,
 				A8BF087F20D6A6AF0067AD51 /* AppDelegate.m in Sources */,
 				A8BF087C20D6A6AF0067AD51 /* main.m in Sources */,
+				A8BF089D20D7E1BF0067AD51 /* DHTabViewController.m in Sources */,
+				A8BF08A320D7F5290067AD51 /* DHMarco.m in Sources */,
+				A8BF08A620D7F9B00067AD51 /* DHConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A8BF088320D6A6AF0067AD51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8BF088420D6A6AF0067AD51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8BF088820D6A6AF0067AD51 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8BF088920D6A6AF0067AD51 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A8BF088C20D6A6AF0067AD51 /* Debug */ = {
@@ -359,6 +386,7 @@
 				A8BF089020D6A6AF0067AD51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
