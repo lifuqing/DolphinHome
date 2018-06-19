@@ -14,5 +14,5 @@
 @property(nonatomic, assign) BOOL isDebug;
 @property(nonatomic, assign) BOOL isNeedLog;
 
-+(DHConfig *)sharedInstance;;
++ (instancetype)sharedInstance;;
 @end

@@ -22,6 +22,7 @@
 #define RGBS(s) RGBA(s,s,s,1.0f)
 
 
+#define TAB_BAR_HEIGHT 49
 
 //去除performSelector may cause a leak because its selector is unknown警告的宏http://stackoverflow.com/questions/11895287/performselector-arc-warning
 

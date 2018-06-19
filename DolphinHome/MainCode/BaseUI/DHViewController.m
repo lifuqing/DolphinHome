@@ -7,9 +7,10 @@
 //
 
 #import "DHViewController.h"
+#import "DHTitleBar.h"
 
 @interface DHViewController ()
-
+@property (nonatomic, strong) DHTitleBar *titleBar;
 @end
 
 @implementation DHViewController
@@ -24,14 +25,39 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    if(_titleBar)
+        [self.view bringSubviewToFront:_titleBar];
 }
-*/
+
+
+- (void)reloadData {
+}
+- (void)refreshUI {
+}
+- (void)refreshNetworkData {
+}
+
+- (float)titleBarHeight
+{
+    if(_titleBar)
+        return TitleBar_Height;
+    else
+        return 0;
+}
+
+- (DHTitleBar *) titleBar
+{
+    if(!_titleBar)
+    {
+        _titleBar = [[DHTitleBar alloc] init];
+        if([self isViewLoaded])
+            [self.view addSubview:_titleBar];
+    }
+    return _titleBar;
+}
+
 
 @end

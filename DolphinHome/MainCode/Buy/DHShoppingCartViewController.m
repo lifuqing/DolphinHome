@@ -1,18 +1,18 @@
 //
-//  DHTabViewController.m
+//  DHShoppingCartViewController.m
 //  DolphinHome
 //
-//  Created by 李福庆 on 2018/6/18.
+//  Created by 李福庆 on 2018/6/19.
 //
 //
 
-#import "DHTabViewController.h"
+#import "DHShoppingCartViewController.h"
 
-@interface DHTabViewController ()
+@interface DHShoppingCartViewController ()
 
 @end
 
-@implementation DHTabViewController
+@implementation DHShoppingCartViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

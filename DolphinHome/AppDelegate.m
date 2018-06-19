@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DHConfig.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //最新设置版本
+//    [self setupAppVersion];
+    
+    /******************************************************************************/
+    
+    /**
+     *  是否显示log，开始回归测试时，需要去掉log
+     *  YES显示log
+     *  NO不显示log
+     */
+    [[DHConfig sharedInstance] setIsNeedLog:NO];
+    /**
+     *  设置正式线和测试线的方法
+     *  YES为测试线
+     *  NO为正式线
+     *  请在提交前将个人修改还原！避免影响其他同学的开发与测试工作
+     *  如必须修改，请询问Team Leader
+     */
+    [[DHConfig sharedInstance] setIsDebug:NO];
+    
+    self.tabBarController =  [[DHTabBarController alloc] initWithNibName:nil bundle:nil];
+    _dhNav = [[DHNavigationController alloc] initWithRootViewController:self.tabBarController];
+    _dhNav.navigationBarHidden = YES;
+    self.window.backgroundColor = [UIColor blackColor];
+    self.window.rootViewController = _dhNav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DHNavigationController.h"
+#import "DHTabBarController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) DHNavigationController *dhNav;
+@property (nonatomic, strong) DHTabBarController *tabBarController;
 
 
 @end

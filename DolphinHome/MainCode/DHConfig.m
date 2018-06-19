@@ -10,7 +10,7 @@
 
 @implementation DHConfig
 
-+(instancetype)sharedInstance
++ (instancetype)sharedInstance
 {
     static id config = nil;
     if (config == nil)
